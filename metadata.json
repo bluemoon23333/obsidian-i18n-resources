@@ -24,5 +24,18 @@
         "created_at": "2026-07-02T13:20:02.337Z",
         "updated_at": "2026-07-02T13:20:02.337Z",
         "type": "plugin"
+    },
+    {
+        "id": "vT2J9kyv-AqJBFsOzD7sse4fBN4yi5zQ",
+        "plugin": "metadata-menu",
+        "language": "zh-cn",
+        "version": "0.8.12",
+        "supported_versions": "0.8.12",
+        "title": "Metadata Menu",
+        "description": "Metadata Menu Localization & Tweaks",
+        "hash": "3ffc80e93ffc80e93ffc80e93ffc80e9",
+        "created_at": "2026-07-02T13:20:13.024Z",
+        "updated_at": "2026-07-02T13:20:13.024Z",
+        "type": "plugin"
     }
 ]
