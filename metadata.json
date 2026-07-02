@@ -89,5 +89,18 @@
         "created_at": "2026-07-02T13:20:58.163Z",
         "updated_at": "2026-07-02T13:20:58.163Z",
         "type": "plugin"
+    },
+    {
+        "id": "HhZqU3Imdc25jMJOvKd9IsIJHkdT_xqw",
+        "plugin": "templater-obsidian",
+        "language": "zh-cn",
+        "version": "2.20.6",
+        "supported_versions": "2.20.6",
+        "title": "Templater",
+        "description": "Templater Localization & Tweaks",
+        "hash": "5b3e815c5b3e815c5b3e815c5b3e815c",
+        "created_at": "2026-07-02T13:21:09.408Z",
+        "updated_at": "2026-07-02T13:21:09.408Z",
+        "type": "plugin"
     }
 ]
