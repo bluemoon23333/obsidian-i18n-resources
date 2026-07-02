@@ -1,0 +1,3358 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "metadata-menu",
+        "version": "1.0.0",
+        "title": "Metadata Menu",
+        "description": "Metadata Menu Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.12",
+        "author": "polaris2333"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add a value",
+                    "target": "Add a value"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Position: ",
+                    "target": "Position: "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Please reload metadata menu to apply this change",
+                    "target": "Please reload metadata menu to apply this change"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "disabled",
+                    "target": "disabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--Select a fileClass--",
+                    "target": "--Select a fileClass--"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Frontmatter only",
+                    "target": "只有 Frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Full note",
+                    "target": "整篇笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "No saved view",
+                    "target": "No saved view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "trash",
+                    "target": "trash"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "suggestion",
+                    "target": "suggestion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "One payload's field is missing an indexed path",
+                    "target": "One payload's field is missing an indexed path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Impossible to restore field hierarchy, check you fileclass configuration",
+                    "target": "Impossible to restore field hierarchy, check you fileclass configuration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unable to build the list of files",
+                    "target": "unable to build the list of files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "One payload's field is missing a name",
+                    "target": "One payload's field is missing a name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "store not found",
+                    "target": "store not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unable to open db",
+                    "target": "unable to open db"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Template input not found",
+                    "target": "Template input not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Template input error",
+                    "target": "Template input error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "start update formulas",
+                    "target": "start update formulas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "finished update formulas",
+                    "target": "finished update formulas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Fileclass setting group is undefined",
+                    "target": "Fileclass setting group is undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Fileclass add button not found",
+                    "target": "Fileclass add button not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Add new fileclass modal not found",
+                    "target": "Add new fileclass modal not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "fileclass name input not found",
+                    "target": "fileclass name input not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Active pane isn't test3_1",
+                    "target": "Active pane isn't test3_1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AddFileClass command not found",
+                    "target": "AddFileClass command not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Fileclass choice not found",
+                    "target": "Fileclass choice not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Adding FileClass to file",
+                    "target": "Adding FileClass to file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "tab not found",
+                    "target": "tab not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "button not found",
+                    "target": "button not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Fields Modal not found",
+                    "target": "Fields Modal not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Insert missing fields in frontmatter button not found",
+                    "target": "Insert missing fields in frontmatter button not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Number field action from fields modal",
+                    "target": "Number field action from fields modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Input field action from fields modal",
+                    "target": "Input field action from fields modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%c [CLEANED]",
+                    "target": "%c [CLEANED]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: blue",
+                    "target": "color: blue"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "background: #222; color: #bada55",
+                    "target": "background: #222; color: #bada55"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "background: red; color: white",
+                    "target": "background: red; color: white"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Couldn't find preset fields File settings",
+                    "target": "Couldn't find preset fields File settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Preset fields setting is undefined",
+                    "target": "Preset fields setting is undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Opening preset fields",
+                    "target": "Opening preset fields"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Preset fields not found",
+                    "target": "Preset fields not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Couldn't build new field modal",
+                    "target": "Couldn't build new field modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Type selector button not found",
+                    "target": "Type selector button not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "dataview index ready",
+                    "target": "dataview index ready"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "indexed FIELDS for ",
+                    "target": "indexed FIELDS for "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " files in ",
+                    "target": " files in "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Resolved dvQ in ",
+                    "target": "Resolved dvQ in "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Metadata menu settings migrated to version 2",
+                    "target": "Metadata menu settings migrated to version 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Metadata menu settings migrated to version 3",
+                    "target": "Metadata menu settings migrated to version 3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Metadata menu settings migrated to version 4",
+                    "target": "Metadata menu settings migrated to version 4"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Metadata menu settings migrated to version 5",
+                    "target": "Metadata menu settings migrated to version 5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error on getting ",
+                    "target": "error on getting "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "create or open db",
+                    "target": "create or open db"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "+------ Metadata Menu loaded ------x-+",
+                    "target": "+------ Metadata Menu loaded ------x-+"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "x------ Metadata Menu unloaded ------x",
+                    "target": "x------ Metadata Menu unloaded ------x"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm",
+                    "target": "Confirm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "True",
+                    "target": "True"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "False",
+                    "target": "False"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose a type",
+                    "target": "Choose a type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new",
+                    "target": "新增"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Index fields in frontmatter only or in the whole note (if you use dataview inline fields). Indexing full notes could cause some latencies in vaults with large files",
+                    "target": "仅索引 frontmatter 中的字段，还是索引整篇笔记（如果你使用了 Dataview 内联字段）。在大文件较多的笔记库中，索引整篇笔记可能会导致一些延迟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose to show or hide fields options in the context menu of a link or a file",
+                    "target": "选择在链接或文件的右键菜单中显示或隐藏字段选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Activate autocomplete fields",
+                    "target": "启用字段自动补全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Activate lookups and formulas fields global auto-calculation",
+                    "target": "启用查找和公式字段的全局自动计算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show fields indexing status icon in status toolbar",
+                    "target": "在状态栏中显示字段索引状态图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose wether lists should be displayed as arrays or indented lists in frontmatter",
+                    "target": "选择列表在 frontmatter 中是显示为数组还是缩进列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For date fields, which day the date picker's week should start with",
+                    "target": "对于日期字段，日期选择器的周应从哪一天开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Dataview is not installed or enabled. Disable this notice",
+                    "target": "Dataview is not installed or enabled. Disable this notice"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new Frontmatter property for which you want preset options.",
+                    "target": "添加一个你想要预设选项的新 Frontmatter 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to the files containing the authorized fields for a type of note",
+                    "target": "包含某类笔记授权字段的文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose another name for fileClass field in frontmatter (example: Category, type, ...",
+                    "target": "为 frontmatter 中的 fileClass 字段选择另一个名称（例如：Category、type 等）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose one fileClass to be applicable to all files (even it is not present as a fileClass attribute in their frontmatter). This will override the preset Fields defined above",
+                    "target": "选择一个 fileClass 应用于所有文件（即使其 frontmatter 中没有 fileClass 属性）。这将覆盖上面定义的预设字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a default icon for fileclasses from lucide.dev library",
+                    "target": "从 lucide.dev 图标库中为 fileClass 选择默认图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of result per page in table view",
+                    "target": "表格视图中每页显示的结果数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a fileclass at file creation to be added to the file",
+                    "target": "在创建文件时选择一个 fileClass 添加到该文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Includes fileClass in frontmatter after fileClass choice",
+                    "target": "选择 fileClass 后将其包含在 frontmatter 中\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show fileclass select option in note fields modals",
+                    "target": "在笔记字段弹窗中显示 fileClass 选择选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new query and a FileClass that will apply to files matching this query.",
+                    "target": "添加一个新的查询和一个 FileClass，将应用于匹配此查询的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scope",
+                    "target": "范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display field options in context menu",
+                    "target": "在右键菜单中显示字段选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autocomplete",
+                    "target": "自动补全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto calculation",
+                    "target": "自动计算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fields Indexing Status",
+                    "target": "字段索引状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter list display",
+                    "target": "Frontmatter 列表显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First day of week",
+                    "target": "每周的第一天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable dataview notice",
+                    "target": "Disable dataview notice"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Field Setting",
+                    "target": "添加新的字段设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Class Files path",
+                    "target": "Class 文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "FileClass field alias",
+                    "target": "FileClass 字段别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Global fileClass",
+                    "target": "全局 fileClass"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Icon",
+                    "target": "默认图标\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Result per page",
+                    "target": "每页结果数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a fileclass after create",
+                    "target": "创建后添加 fileClass"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert fileClass fields",
+                    "target": "插入 fileClass 字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fileclass Select",
+                    "target": "FileClass 选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Query for fileClass",
+                    "target": "添加新的 fileClass 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Multiple values",
+                    "target": "Multiple values"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ex: dv.pages('#student').map(p => p.name)",
+                    "target": "ex: dv.pages('#student').map(p => p.name)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Javascript string, the \"page\" (dataview page type) variable is available\nexample 1: page.file.name\nexample 2: `${page.file.name} of gender ${page.gender}`",
+                    "target": "Javascript string, the \"page\" (dataview page type) variable is available\nexample 1: page.file.name\nexample 2: `${page.file.name} of gender ${page.gender}`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Javascript instruction, (a: TFile, b: TFile): number\nexample 1 (alphabetical order): a.basename < b.basename ? 1 : -1 \nexample 2 (creation time newer to older): b.stat.ctime - b.stat.ctime",
+                    "target": "Javascript instruction, (a: TFile, b: TFile): number\nexample 1 (alphabetical order): a.basename < b.basename ? 1 : -1 \nexample 2 (creation time newer to older): b.stat.ctime - b.stat.ctime"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ex: 1 month, 2 days",
+                    "target": "ex: 1 month, 2 days"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Empty",
+                    "target": "Empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ex: dv.pages('#student')",
+                    "target": "ex: dv.pages('#student')"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "example: current.apple + current.bananas - 3",
+                    "target": "example: current.apple + current.bananas - 3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "exampe: dv.pages('#student')",
+                    "target": "exampe: dv.pages('#student')"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Name of the field",
+                    "target": "Name of the field"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Name of this fileClass query",
+                    "target": "Name of this fileClass query"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder",
+                    "target": "Folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Global fileClass",
+                    "target": "Global fileClass"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "example: {{itemsCount}} items",
+                    "target": "example: {{itemsCount}} items"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "example: {{itemIndex}}: {{subfieldA}} - {{subfieldC}}",
+                    "target": "example: {{itemIndex}}: {{subfieldA}} - {{subfieldC}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Alt+Enter to save",
+                    "target": "Alt+Enter to save"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "value must be a valid date",
+                    "target": "value must be a valid date"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Add a new fileClass",
+                    "target": "Add a new fileClass"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Add a field and define options",
+                    "target": "Add a field and define options"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Parent:",
+                    "target": "Parent:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Inline field style",
+                    "target": "Inline field style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Field type:",
+                    "target": "Field type:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please confirm",
+                    "target": "Please confirm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Do you really want to remove this field?",
+                    "target": "Do you really want to remove this field?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Select a fileClass and add an applicable query",
+                    "target": "Select a fileClass and add an applicable query"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Set a custom order by moving the values",
+                    "target": "Set a custom order by moving the values"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Enter a custom filtering function",
+                    "target": "Enter a custom filtering function"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "< ... >",
+                    "target": "< ... >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "> ... <",
+                    "target": "> ... <"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Alt+Esc to go back",
+                    "target": "Alt+Esc to go back"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Alt+Enter to Add",
+                    "target": "Alt+Enter to Add"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add new field",
+                    "target": "Add new field"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open fields modal",
+                    "target": "Open fields modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Manage all fields",
+                    "target": "Manage all fields"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Manage field at cursor",
+                    "target": "Manage field at cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add field at section...",
+                    "target": "Add field at section..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add missing fields at section...",
+                    "target": "Add missing fields at section..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add field in frontmatter",
+                    "target": "Add field in frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add field at cursor",
+                    "target": "Add field at cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Field Options",
+                    "target": "Field Options"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add this value to this field settings",
+                    "target": "Add this value to this field settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear field's value(s)",
+                    "target": "Clear field's value(s)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add this field as a list item",
+                    "target": "Add this field as a list item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add this field as a comment item",
+                    "target": "Add this field as a comment item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add this field at the end of the frontmatter",
+                    "target": "Add this field at the end of the frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit",
+                    "target": "Edit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete",
+                    "target": "Delete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "The field type \ncan't be modified once saved",
+                    "target": "The field type \ncan't be modified once saved"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save",
+                    "target": "Save"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up (lower priority)",
+                    "target": "Move up (lower priority)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add New Property Manager",
+                    "target": "Add New Property Manager"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add New fileClass query",
+                    "target": "Add New fileClass query"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Cancel changes",
+                    "target": "Cancel changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset initial ordering",
+                    "target": "Reset initial ordering"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear filtered value(s)",
+                    "target": "Clear filtered value(s)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Unselect this view as your favorite view",
+                    "target": "Unselect this view as your favorite view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Select this view as your favorite view",
+                    "target": "Select this view as your favorite view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "You don't have any saved view yet",
+                    "target": "You don't have any saved view yet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear all filters, sorters and ordering",
+                    "target": "Clear all filters, sorters and ordering"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save current view (filters and sorters)",
+                    "target": "Save current view (filters and sorters)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "display filters",
+                    "target": "display filters"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "collapse filters",
+                    "target": "collapse filters"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show insert field button in each cell (slower)",
+                    "target": "Show insert field button in each cell (slower)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Refresh table results",
+                    "target": "Refresh table results"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "display children selector",
+                    "target": "display children selector"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Go to parent field",
+                    "target": "Go to parent field"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add a new item",
+                    "target": "Add a new item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add field at section",
+                    "target": "Add field at section"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "In Frontmatter",
+                    "target": "In Frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "At line...",
+                    "target": "At line..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fileclass view couldn't load because of a conflict with another plugin",
+                    "target": "Fileclass view couldn't load because of a conflict with another plugin"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Impossible to restore field hierarchy, check you fileclass configuration",
+                    "target": "Impossible to restore field hierarchy, check you fileclass configuration"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Something went wrong. Impossible to create this fileClass",
+                    "target": "Something went wrong. Impossible to create this fileClass"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fix errors before saving.",
+                    "target": "Fix errors before saving."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Something went wrong, please check your fileClass definitions",
+                    "target": "Something went wrong, please check your fileClass definitions"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No field with definition at this position",
+                    "target": "No field with definition at this position"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A parent field is missing, this field can't be added",
+                    "target": "A parent field is missing, this field can't be added"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "plugin is not a valid fileClass",
+                    "target": "plugin is not a valid fileClass"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "incorrect frontmatter format",
+                    "target": "incorrect frontmatter format"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "------------------------------------------\n(!) INFO (!) \nInstall and enable dataview and dataviewJS for extra Metadata Menu features\n------------------------------------------",
+                    "target": "------------------------------------------\n(!) INFO (!) \nInstall and enable dataview and dataviewJS for extra Metadata Menu features\n------------------------------------------"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "spacer",
+                    "target": "spacer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "info",
+                    "target": "info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "vstacked",
+                    "target": "vstacked"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "thumbnail",
+                    "target": "thumbnail"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "chip media-type-container",
+                    "target": "chip media-type-container"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "node-color picker",
+                    "target": "node-color picker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "item chip",
+                    "target": "item chip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-container colors",
+                    "target": "field-container colors"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-container edges",
+                    "target": "field-container edges"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-container egdes",
+                    "target": "field-container egdes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-container labels",
+                    "target": "field-container labels"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "sub-text warning",
+                    "target": "sub-text warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "line",
+                    "target": "line"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "indentation",
+                    "target": "indentation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "icon",
+                    "target": "icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "action",
+                    "target": "action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "footer",
+                    "target": "footer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cell",
+                    "target": "cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "items",
+                    "target": "items"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "item add",
+                    "target": "item add"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "item",
+                    "target": "item"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "item spacer",
+                    "target": "item spacer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "item right-align",
+                    "target": "item right-align"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "description",
+                    "target": "description"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "suggestion-item value-container",
+                    "target": "suggestion-item value-container"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "priority",
+                    "target": "priority"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "range",
+                    "target": "range"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "options",
+                    "target": "options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "limit",
+                    "target": "limit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pagination",
+                    "target": "pagination"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "fields",
+                    "target": "fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-item field-option",
+                    "target": "field-item field-option"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-item field-name",
+                    "target": "field-item field-name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "field-item field-setting",
+                    "target": "field-item field-setting"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "separator",
+                    "target": "separator"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "metadata-menu fileclass-icon",
+                    "target": "metadata-menu fileclass-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "status-bar-item-segment index-status",
+                    "target": "status-bar-item-segment index-status"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "status-bar-item-icon sync-status-icon",
+                    "target": "status-bar-item-icon sync-status-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form after a link in reading mode",
+                    "target": "在阅读模式中，链接后显示一个额外按钮以访问元数据菜单表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form after a link in live preview",
+                    "target": "在实时预览模式中，链接后显示一个额外按钮以访问元数据菜单表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form in the tab header",
+                    "target": "在标签页标题中显示一个额外按钮以访问元数据菜单表单\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form in the backlinks panel",
+                    "target": "在反向链接面板中显示一个额外按钮以访问元数据菜单表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form in the search panel",
+                    "target": "在搜索面板中显示一个额外按钮以访问元数据菜单表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display an extra button to access metadata menu form in the file explorer",
+                    "target": "在文件资源管理器中显示一个额外按钮以访问元数据菜单表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display fields buttons to access metadata forms in the property section",
+                    "target": "在属性区域显示字段按钮以访问元数据表单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "gear",
+                    "target": "gear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "package",
+                    "target": "package"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arrow",
+                    "target": "arrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "flip",
+                    "target": "flip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hide",
+                    "target": "hide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "offset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "json",
+                    "target": "json"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "yaml",
+                    "target": "yaml"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "limit",
+                    "target": "limit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "icon",
+                    "target": "icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "excludes",
+                    "target": "excludes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "extends",
+                    "target": "extends"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reading mode links",
+                    "target": "阅读模式链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Live preview mode",
+                    "target": "实时预览模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tab header",
+                    "target": "标签页标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backlinks",
+                    "target": "反向链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File explorer",
+                    "target": "文件资源管理器\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Properties",
+                    "target": "属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "calories",
+                    "target": "calories"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All fileClass attributes options",
+                    "target": "All fileClass attributes options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert a new fileClass attribute",
+                    "target": "Insert a new fileClass attribute"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Choose a field to insert at cursor",
+                    "target": "Choose a field to insert at cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fields options",
+                    "target": "Fields options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage field at cursor",
+                    "target": "Manage field at cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bulk insert missing fields",
+                    "target": "Bulk insert missing fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open this note's fields modal",
+                    "target": "Open this note's fields modal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open fileClass view",
+                    "target": "Open fileClass view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add fileClass to file",
+                    "target": "Add fileClass to file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update all lookups and formulas",
+                    "target": "Update all lookups and formulas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update active file lookups fields",
+                    "target": "Update active file lookups fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update active file formulas fields",
+                    "target": "Update active file formulas fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "id",
+                    "target": "id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "file",
+                    "target": "file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placement",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New value: ",
+                    "target": "New value: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Template",
+                    "target": "Template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Result preview",
+                    "target": "Result preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Step (optional)",
+                    "target": "Step (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Min value (optional)",
+                    "target": "Min value (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Max value (optional)",
+                    "target": "Max value (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Values source type",
+                    "target": "Values source type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path of the note",
+                    "target": "Path of the note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dataview function",
+                    "target": "Dataview function"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dataview query returning a list of string (<dv> object is available)",
+                    "target": "Dataview query returning a list of string (<dv> object is available)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " | ",
+                    "target": " | "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dataview Query (optional)",
+                    "target": "Dataview Query (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Alias",
+                    "target": "Alias"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)",
+                    "target": "Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "function(page) { return <function using \"page\">; }",
+                    "target": "function(page) { return <function using \"page\">; }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sorting order",
+                    "target": "Sorting order"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Personalise the sorting order of your links with a instruction taking 2 files (a, b) and returning -1, 0 or 1",
+                    "target": "Personalise the sorting order of your links with a instruction taking 2 files (a, b) and returning -1, 0 or 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(a: TFile, b: TFile): number",
+                    "target": "(a: TFile, b: TFile): number"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cycle begins by a null value",
+                    "target": "Cycle begins by a null value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date format",
+                    "target": "Date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert as link by default",
+                    "target": "Insert as link by default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Link path (optional)",
+                    "target": "Link path (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Define a shift interval",
+                    "target": "Define a shift interval"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Field containing shift intervals",
+                    "target": "Field containing shift intervals"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add a folder containing media files",
+                    "target": "Add a folder containing media files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inline thumbnail embedded",
+                    "target": "Inline thumbnail embedded"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File suggest modal display",
+                    "target": "File suggest modal display"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inline embedded thumbnail height (px): ",
+                    "target": "Inline embedded thumbnail height (px): "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path of the canvas",
+                    "target": "Path of the canvas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dataview query returning a list of files (<dv> object is available)",
+                    "target": "Dataview query returning a list of files (<dv> object is available)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No edge selected is equivalent to all edges selected",
+                    "target": "No edge selected is equivalent to all edges selected"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto update this field ",
+                    "target": "Auto update this field "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This could lead to latencies depending on the queries",
+                    "target": "This could lead to latencies depending on the queries"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "javascript formula",
+                    "target": "javascript formula"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "current and dv variables are available",
+                    "target": "current and dv variables are available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pages to look for in your vault (DataviewJS Query)",
+                    "target": "Pages to look for in your vault (DataviewJS Query)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "DataviewJS query of the form `dv.pages(...)`",
+                    "target": "DataviewJS query of the form `dv.pages(...)`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name of the related field",
+                    "target": "Name of the related field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "field in the target pages that contains a link to the page where this lookup field is",
+                    "target": "field in the target pages that contains a link to the page where this lookup field is"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Type of output",
+                    "target": "Type of output"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: this may override some lines under your list. There shouldn't be an extra manual item in the list that is automatically rendered by this field: it would be overriden after each field indexing",
+                    "target": "Warning: this may override some lines under your list. There shouldn't be an extra manual item in the list that is automatically rendered by this field: it would be overriden after each field indexing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Summarized field name",
+                    "target": "Summarized field name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name of the field containing summarized value used for the summarizing function",
+                    "target": "Name of the field containing summarized value used for the summarizing function"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Field Name: ",
+                    "target": "Field Name: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Frontmatter list display type",
+                    "target": "Frontmatter list display type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "set a command for this field?",
+                    "target": "set a command for this field?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Icon name for mobile toolbar",
+                    "target": "Icon name for mobile toolbar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "::",
+                    "target": "::"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "FileClass Query Name:",
+                    "target": "FileClass Query Name:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fileclass:",
+                    "target": "Fileclass:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "dataviewJS query:",
+                    "target": "dataviewJS query:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(value: string, current: Object): boolean => {",
+                    "target": "(value: string, current: Object): boolean => {"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "current is the current page (dv.page) if this view is embedded in a codeblock",
+                    "target": "current is the current page (dv.page) if this view is embedded in a codeblock"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "returns a boolean, ",
+                    "target": "returns a boolean, "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "double quote have to be escaped like this \\\\\", ",
+                    "target": "double quote have to be escaped like this \\\\\", "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "example:",
+                    "target": "example:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "return value < current.priority;",
+                    "target": "return value < current.priority;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "};",
+                    "target": "};"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Saved view name",
+                    "target": "Saved view name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "< ... >",
+                    "target": "< ... >"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Results per page: ",
+                    "target": "Results per page: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Object display template",
+                    "target": "Object display template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The number of items is referenced by the keyword 'itemsCount'",
+                    "target": "The number of items is referenced by the keyword 'itemsCount'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Item display template",
+                    "target": "Item display template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "all child fields are available with their name enclosed in curly braces. Their index is referenced by the keyword 'itemIndex'",
+                    "target": "all child fields are available with their name enclosed in curly braces. Their index is referenced by the keyword 'itemIndex'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert missing fields",
+                    "target": "Insert missing fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add a new item",
+                    "target": "Add a new item"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Manage fields",
+                    "target": "Manage fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"One payload's field is missing an indexed path\")",
+                    "target": "error(\"One payload's field is missing an indexed path\")"
+                },
+                {
+                    "source": "setText(`Change Value for <${this.managedField.name}>`)",
+                    "target": "setText(`Change Value for <${this.managedField.name}>`)"
+                },
+                {
+                    "source": "setPlaceholder(`Enter a value for ${name}`)",
+                    "target": "setPlaceholder(`Enter a value for ${name}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Multiple values\")",
+                    "target": "setPlaceholder(\"Multiple values\")"
+                },
+                {
+                    "source": "setText(\"Alt+Enter to save\")",
+                    "target": "setText(\"Alt+Enter to save\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Template input not found\")",
+                    "target": "log(\"ERROR\", \"Template input not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Template input error\")",
+                    "target": "log(\"ERROR\", \"Template input error\")"
+                },
+                {
+                    "source": "setButtonText(`- ${!!step ? step : 1}`)",
+                    "target": "setButtonText(`- ${!!step ? step : 1}`)"
+                },
+                {
+                    "source": "setButtonText(`+ ${!!step ? step : 1}`)",
+                    "target": "setButtonText(`+ ${!!step ? step : 1}`)"
+                },
+                {
+                    "source": "error('PopperJS: an invalid property has been provided to the \"' + modifier.name + '\" modifier, valid properties are ' + VALID_PROPERTIES.map(function(s) {\n            return '\"' + s + '\"';\n          }).join(\", \") + '; but \"' + key + '\" was provided.')",
+                    "target": "error('PopperJS: an invalid property has been provided to the \"' + modifier.name + '\" modifier, valid properties are ' + VALID_PROPERTIES.map(function(s) {\n            return '\"' + s + '\"';\n          }).join(\", \") + '; but \"' + key + '\" was provided.')"
+                },
+                {
+                    "source": "setPlaceholder(\"ex: dv.pages('#student').map(p => p.name)\")",
+                    "target": "setPlaceholder(\"ex: dv.pages('#student').map(p => p.name)\")"
+                },
+                {
+                    "source": "setTooltip(\"Add this value to this field settings\")",
+                    "target": "setTooltip(\"Add this value to this field settings\")"
+                },
+                {
+                    "source": "setTooltip(\"Clear field's value(s)\")",
+                    "target": "setTooltip(\"Clear field's value(s)\")"
+                },
+                {
+                    "source": "setText(`${(0, import_obsidian14.moment)().format(dateFormatInput.getValue())}`)",
+                    "target": "setText(`${(0, import_obsidian14.moment)().format(dateFormatInput.getValue())}`)"
+                },
+                {
+                    "source": "setText(`${(0, import_obsidian14.moment)().format(value)}`)",
+                    "target": "setText(`${(0, import_obsidian14.moment)().format(value)}`)"
+                },
+                {
+                    "source": "setTooltip(`Shift ${this.managedField.name} ${this.currentShift || \"1 day\"} ahead`)",
+                    "target": "setTooltip(`Shift ${this.managedField.name} ${this.currentShift || \"1 day\"} ahead`)"
+                },
+                {
+                    "source": "setText(`value must be a valid date`)",
+                    "target": "setText(`value must be a valid date`)"
+                },
+                {
+                    "source": "setTooltip(`Clear ${this.managedField.name}'s date`)",
+                    "target": "setTooltip(`Clear ${this.managedField.name}'s date`)"
+                },
+                {
+                    "source": "setPlaceholder(\"ex: dv.pages('#student')\")",
+                    "target": "setPlaceholder(\"ex: dv.pages('#student')\")"
+                },
+                {
+                    "source": "setPlaceholder(\"example: current.apple + current.bananas - 3\")",
+                    "target": "setPlaceholder(\"example: current.apple + current.bananas - 3\")"
+                },
+                {
+                    "source": "setPlaceholder(\"exampe: dv.pages('#student')\")",
+                    "target": "setPlaceholder(\"exampe: dv.pages('#student')\")"
+                },
+                {
+                    "source": "error(`${this.fileClassName}'s attribute [${this.name}] is not properly set. Check the fileclass settings or delete and recreate it`)",
+                    "target": "error(`${this.fileClassName}'s attribute [${this.name}] is not properly set. Check the fileclass settings or delete and recreate it`)"
+                },
+                {
+                    "source": "error(\"Impossible to restore field hierarchy, check you fileclass configuration\")",
+                    "target": "error(\"Impossible to restore field hierarchy, check you fileclass configuration\")"
+                },
+                {
+                    "source": "Notice(\"Impossible to restore field hierarchy, check you fileclass configuration\")",
+                    "target": "Notice(\"Impossible to restore field hierarchy, check you fileclass configuration\")"
+                },
+                {
+                    "source": "setText(\"Add a new fileClass\")",
+                    "target": "setText(\"Add a new fileClass\")"
+                },
+                {
+                    "source": "setTooltip(\"Add this field as a list item\")",
+                    "target": "setTooltip(\"Add this field as a list item\")"
+                },
+                {
+                    "source": "setTooltip(\"Add this field as a comment item\")",
+                    "target": "setTooltip(\"Add this field as a comment item\")"
+                },
+                {
+                    "source": "setTooltip(\"Add this field at the end of the frontmatter\")",
+                    "target": "setTooltip(\"Add this field at the end of the frontmatter\")"
+                },
+                {
+                    "source": "setText(`Add a field and define options`)",
+                    "target": "setText(`Add a field and define options`)"
+                },
+                {
+                    "source": "setText(`Manage settings options for ${this.field.name}`)",
+                    "target": "setText(`Manage settings options for ${this.field.name}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Name of the field\")",
+                    "target": "setPlaceholder(\"Name of the field\")"
+                },
+                {
+                    "source": "setButtonText(`${!this.field.path ? \"Select a parent field\" : \"Change parent field\"}`)",
+                    "target": "setButtonText(`${!this.field.path ? \"Select a parent field\" : \"Change parent field\"}`)"
+                },
+                {
+                    "source": "setText(`Inline field style`)",
+                    "target": "setText(`Inline field style`)"
+                },
+                {
+                    "source": "setTooltip(`${this.field.type} field type \nare only available\nin the frontmatter section`)",
+                    "target": "setTooltip(`${this.field.type} field type \nare only available\nin the frontmatter section`)"
+                },
+                {
+                    "source": "setText(`Field type:`)",
+                    "target": "setText(`Field type:`)"
+                },
+                {
+                    "source": "setTooltip(`The field type \ncan't be modified once saved`)",
+                    "target": "setTooltip(`The field type \ncan't be modified once saved`)"
+                },
+                {
+                    "source": "setButtonText(\"Choose a type\")",
+                    "target": "setButtonText(\"Choose a type\")"
+                },
+                {
+                    "source": "Notice(\"Fix errors before saving.\")",
+                    "target": "Notice(\"Fix errors before saving.\")"
+                },
+                {
+                    "source": "setText(\"Please confirm\")",
+                    "target": "setText(\"Please confirm\")"
+                },
+                {
+                    "source": "setText(`Do you really want to remove this field?`)",
+                    "target": "setText(`Do you really want to remove this field?`)"
+                },
+                {
+                    "source": "Notice(` for <${this.name}>. Check your settings`)",
+                    "target": "Notice(` for <${this.name}>. Check your settings`)"
+                },
+                {
+                    "source": "setTooltip(\"Move up (lower priority)\")",
+                    "target": "setTooltip(\"Move up (lower priority)\")"
+                },
+                {
+                    "source": "setText(`Select a fileClass and add an applicable query`)",
+                    "target": "setText(`Select a fileClass and add an applicable query`)"
+                },
+                {
+                    "source": "setText(`Manage ${this.fileClassQuery.name} settings`)",
+                    "target": "setText(`Manage ${this.fileClassQuery.name} settings`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Name of this fileClass query\")",
+                    "target": "setPlaceholder(\"Name of this fileClass query\")"
+                },
+                {
+                    "source": "setText(`Manage options for ${this.fileClassQuery.name}`)",
+                    "target": "setText(`Manage options for ${this.fileClassQuery.name}`)"
+                },
+                {
+                    "source": "setDesc(\"Index fields in frontmatter only or in the whole note (if you use dataview inline fields). Indexing full notes could cause some latencies in vaults with large files\")",
+                    "target": "setDesc(\"Index fields in frontmatter only or in the whole note (if you use dataview inline fields). Indexing full notes could cause some latencies in vaults with large files\")"
+                },
+                {
+                    "source": "setName(\"Display field options in context menu\")",
+                    "target": "setName(\"Display field options in context menu\")"
+                },
+                {
+                    "source": "setDesc(\"Choose to show or hide fields options in the context menu of a link or a file\")",
+                    "target": "setDesc(\"Choose to show or hide fields options in the context menu of a link or a file\")"
+                },
+                {
+                    "source": "setDesc(\"Activate autocomplete fields\")",
+                    "target": "setDesc(\"Activate autocomplete fields\")"
+                },
+                {
+                    "source": "setName(\"Auto calculation\")",
+                    "target": "setName(\"Auto calculation\")"
+                },
+                {
+                    "source": "setDesc(\"Activate lookups and formulas fields global auto-calculation\")",
+                    "target": "setDesc(\"Activate lookups and formulas fields global auto-calculation\")"
+                },
+                {
+                    "source": "setName(\"Fields Indexing Status\")",
+                    "target": "setName(\"Fields Indexing Status\")"
+                },
+                {
+                    "source": "setDesc(\"Show fields indexing status icon in status toolbar\")",
+                    "target": "setDesc(\"Show fields indexing status icon in status toolbar\")"
+                },
+                {
+                    "source": "setName(\"Frontmatter list display\")",
+                    "target": "setName(\"Frontmatter list display\")"
+                },
+                {
+                    "source": "setDesc(\"Choose wether lists should be displayed as arrays or indented lists in frontmatter\")",
+                    "target": "setDesc(\"Choose wether lists should be displayed as arrays or indented lists in frontmatter\")"
+                },
+                {
+                    "source": "setName(\"First day of week\")",
+                    "target": "setName(\"First day of week\")"
+                },
+                {
+                    "source": "setDesc(\"For date fields, which day the date picker's week should start with\")",
+                    "target": "setDesc(\"For date fields, which day the date picker's week should start with\")"
+                },
+                {
+                    "source": "setName(\"Disable dataview notice\")",
+                    "target": "setName(\"Disable dataview notice\")"
+                },
+                {
+                    "source": "setDesc(\n        \"Dataview is not installed or enabled. Disable this notice\"\n      )",
+                    "target": "setDesc(\n        \"Dataview is not installed or enabled. Disable this notice\"\n      )"
+                },
+                {
+                    "source": "setName(\"Add New Field Setting\")",
+                    "target": "setName(\"Add New Field Setting\")"
+                },
+                {
+                    "source": "setDesc(\"Add a new Frontmatter property for which you want preset options.\")",
+                    "target": "setDesc(\"Add a new Frontmatter property for which you want preset options.\")"
+                },
+                {
+                    "source": "setTooltip(\"Add New Property Manager\")",
+                    "target": "setTooltip(\"Add New Property Manager\")"
+                },
+                {
+                    "source": "setButtonText(\"Add new\")",
+                    "target": "setButtonText(\"Add new\")"
+                },
+                {
+                    "source": "setName(\"Class Files path\")",
+                    "target": "setName(\"Class Files path\")"
+                },
+                {
+                    "source": "setDesc(\"Path to the files containing the authorized fields for a type of note\")",
+                    "target": "setDesc(\"Path to the files containing the authorized fields for a type of note\")"
+                },
+                {
+                    "source": "setName(\"FileClass field alias\")",
+                    "target": "setName(\"FileClass field alias\")"
+                },
+                {
+                    "source": "setDesc(\"Choose another name for fileClass field in frontmatter (example: Category, type, ...\")",
+                    "target": "setDesc(\"Choose another name for fileClass field in frontmatter (example: Category, type, ...\")"
+                },
+                {
+                    "source": "setName(\"Global fileClass\")",
+                    "target": "setName(\"Global fileClass\")"
+                },
+                {
+                    "source": "setDesc(\"Choose one fileClass to be applicable to all files (even it is not present as a fileClass attribute in their frontmatter). This will override the preset Fields defined above\")",
+                    "target": "setDesc(\"Choose one fileClass to be applicable to all files (even it is not present as a fileClass attribute in their frontmatter). This will override the preset Fields defined above\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Global fileClass\")",
+                    "target": "setPlaceholder(\"Global fileClass\")"
+                },
+                {
+                    "source": "setName(\"Default Icon\")",
+                    "target": "setName(\"Default Icon\")"
+                },
+                {
+                    "source": "setDesc(\"Choose a default icon for fileclasses from lucide.dev library\")",
+                    "target": "setDesc(\"Choose a default icon for fileclasses from lucide.dev library\")"
+                },
+                {
+                    "source": "setName(\"Result per page\")",
+                    "target": "setName(\"Result per page\")"
+                },
+                {
+                    "source": "setDesc(\"Number of result per page in table view\")",
+                    "target": "setDesc(\"Number of result per page in table view\")"
+                },
+                {
+                    "source": "setName(\"Add a fileclass after create\")",
+                    "target": "setName(\"Add a fileclass after create\")"
+                },
+                {
+                    "source": "setDesc(\"Select a fileclass at file creation to be added to the file\")",
+                    "target": "setDesc(\"Select a fileclass at file creation to be added to the file\")"
+                },
+                {
+                    "source": "setName(\"Insert fileClass fields\")",
+                    "target": "setName(\"Insert fileClass fields\")"
+                },
+                {
+                    "source": "setDesc(\"Includes fileClass in frontmatter after fileClass choice\")",
+                    "target": "setDesc(\"Includes fileClass in frontmatter after fileClass choice\")"
+                },
+                {
+                    "source": "setName(\"Fileclass Select\")",
+                    "target": "setName(\"Fileclass Select\")"
+                },
+                {
+                    "source": "setDesc(\"Show fileclass select option in note fields modals\")",
+                    "target": "setDesc(\"Show fileclass select option in note fields modals\")"
+                },
+                {
+                    "source": "setName(\"Add New Query for fileClass\")",
+                    "target": "setName(\"Add New Query for fileClass\")"
+                },
+                {
+                    "source": "setDesc(\"Add a new query and a FileClass that will apply to files matching this query.\")",
+                    "target": "setDesc(\"Add a new query and a FileClass that will apply to files matching this query.\")"
+                },
+                {
+                    "source": "setTooltip(\"Add New fileClass query\")",
+                    "target": "setTooltip(\"Add New fileClass query\")"
+                },
+                {
+                    "source": "log(\"ERROR\", `${fileClass.name} view didn't open`);\n  const settingsMenuHeader = fCView.containerEl.querySelector(\"#settingsOption\")",
+                    "target": "log(\"ERROR\", `${fileClass.name} view didn't open`);\n  const settingsMenuHeader = fCView.containerEl.querySelector(\"#settingsOption\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Fileclass setting group is undefined\")",
+                    "target": "log(\"ERROR\", \"Fileclass setting group is undefined\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Fileclass add button not found\")",
+                    "target": "log(\"ERROR\", \"Fileclass add button not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Add new fileclass modal not found\")",
+                    "target": "log(\"ERROR\", \"Add new fileclass modal not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"fileclass name input not found\")",
+                    "target": "log(\"ERROR\", \"fileclass name input not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", testFilePath + \" not found\")",
+                    "target": "log(\"ERROR\", testFilePath + \" not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Active pane isn't test3_1\")",
+                    "target": "log(\"ERROR\", \"Active pane isn't test3_1\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"AddFileClass command not found\")",
+                    "target": "log(\"ERROR\", \"AddFileClass command not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Fileclass choice not found\")",
+                    "target": "log(\"ERROR\", \"Fileclass choice not found\")"
+                },
+                {
+                    "source": "log(\"SUCCESS\", \"Adding FileClass to file\")",
+                    "target": "log(\"SUCCESS\", \"Adding FileClass to file\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"tab not found\")",
+                    "target": "log(\"ERROR\", \"tab not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"button not found\")",
+                    "target": "log(\"ERROR\", \"button not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Fields Modal not found\")",
+                    "target": "log(\"ERROR\", \"Fields Modal not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Insert missing fields in frontmatter button not found\")",
+                    "target": "log(\"ERROR\", \"Insert missing fields in frontmatter button not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", `${input.name} update modal not found`);\n  const textArea = modal.querySelector(\"textarea\")",
+                    "target": "log(\"ERROR\", `${input.name} update modal not found`);\n  const textArea = modal.querySelector(\"textarea\")"
+                },
+                {
+                    "source": "log(\"ERROR\", `Didn't find ${testFilePath}`);\n    await this.plugin.app.vault.modify(testFile, \"\")",
+                    "target": "log(\"ERROR\", `Didn't find ${testFilePath}`);\n    await this.plugin.app.vault.modify(testFile, \"\")"
+                },
+                {
+                    "source": "log(\"%c [CLEANED]\", \"color: blue\")",
+                    "target": "log(\"%c [CLEANED]\", \"color: blue\")"
+                },
+                {
+                    "source": "log(\"%c [ERROR]: \" + output, \"background: red; color: white\")",
+                    "target": "log(\"%c [ERROR]: \" + output, \"background: red; color: white\")"
+                },
+                {
+                    "source": "log(\"SUCCESS\", \"openSettingTab\")",
+                    "target": "log(\"SUCCESS\", \"openSettingTab\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Couldn't find preset fields File settings\")",
+                    "target": "log(\"ERROR\", \"Couldn't find preset fields File settings\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Preset fields setting is undefined\")",
+                    "target": "log(\"ERROR\", \"Preset fields setting is undefined\")"
+                },
+                {
+                    "source": "log(\"SUCCESS\", \"Opening preset fields\")",
+                    "target": "log(\"SUCCESS\", \"Opening preset fields\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Preset fields not found\")",
+                    "target": "log(\"ERROR\", \"Preset fields not found\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Couldn't build new field modal\")",
+                    "target": "log(\"ERROR\", \"Couldn't build new field modal\")"
+                },
+                {
+                    "source": "log(\"ERROR\", \"Type selector button not found\")",
+                    "target": "log(\"ERROR\", \"Type selector button not found\")"
+                },
+                {
+                    "source": "setText(\"Set a custom order by moving the values\")",
+                    "target": "setText(\"Set a custom order by moving the values\")"
+                },
+                {
+                    "source": "setTooltip(\"Cancel changes\")",
+                    "target": "setTooltip(\"Cancel changes\")"
+                },
+                {
+                    "source": "setTooltip(\"Reset initial ordering\")",
+                    "target": "setTooltip(\"Reset initial ordering\")"
+                },
+                {
+                    "source": "setTooltip(\"Clear filtered value(s)\")",
+                    "target": "setTooltip(\"Clear filtered value(s)\")"
+                },
+                {
+                    "source": "setText(\"Enter a custom filtering function\")",
+                    "target": "setText(\"Enter a custom filtering function\")"
+                },
+                {
+                    "source": "error(\"unable to build the list of files\")",
+                    "target": "error(\"unable to build the list of files\")"
+                },
+                {
+                    "source": "setText(\"< ... >\")",
+                    "target": "setText(\"< ... >\")"
+                },
+                {
+                    "source": "setText(\"> ... <\")",
+                    "target": "setText(\"> ... <\")"
+                },
+                {
+                    "source": "setText(`${value.path.join(\" > \")}`)",
+                    "target": "setText(`${value.path.join(\" > \")}`)"
+                },
+                {
+                    "source": "setTooltip(`Remove ${this.selectedView} view from the saved views`)",
+                    "target": "setTooltip(`Remove ${this.selectedView} view from the saved views`)"
+                },
+                {
+                    "source": "setTooltip(\"Unselect this view as your favorite view\")",
+                    "target": "setTooltip(\"Unselect this view as your favorite view\")"
+                },
+                {
+                    "source": "setTooltip(\"Select this view as your favorite view\")",
+                    "target": "setTooltip(\"Select this view as your favorite view\")"
+                },
+                {
+                    "source": "setTooltip(\"You don't have any saved view yet\")",
+                    "target": "setTooltip(\"You don't have any saved view yet\")"
+                },
+                {
+                    "source": "setTooltip(\"Clear all filters, sorters and ordering\")",
+                    "target": "setTooltip(\"Clear all filters, sorters and ordering\")"
+                },
+                {
+                    "source": "setTooltip(\"Save current view (filters and sorters)\")",
+                    "target": "setTooltip(\"Save current view (filters and sorters)\")"
+                },
+                {
+                    "source": "setTooltip(\"display filters\")",
+                    "target": "setTooltip(\"display filters\")"
+                },
+                {
+                    "source": "setTooltip(\"collapse filters\")",
+                    "target": "setTooltip(\"collapse filters\")"
+                },
+                {
+                    "source": "setTooltip(\"Show insert field button in each cell (slower)\")",
+                    "target": "setTooltip(\"Show insert field button in each cell (slower)\")"
+                },
+                {
+                    "source": "setTooltip(\"Refresh table results\")",
+                    "target": "setTooltip(\"Refresh table results\")"
+                },
+                {
+                    "source": "setTooltip(\"display children selector\")",
+                    "target": "setTooltip(\"display children selector\")"
+                },
+                {
+                    "source": "Notice(\"Something went wrong, please check your fileClass definitions\")",
+                    "target": "Notice(\"Something went wrong, please check your fileClass definitions\")"
+                },
+                {
+                    "source": "setTitle(`Display ${fileClass.name} table view`)",
+                    "target": "setTitle(`Display ${fileClass.name} table view`)"
+                },
+                {
+                    "source": "setTitle(`Map ${fileClass.name} with tag`)",
+                    "target": "setTitle(`Map ${fileClass.name} with tag`)"
+                },
+                {
+                    "source": "setTitle(`Insert missing fields from ${fileClass.name}`)",
+                    "target": "setTitle(`Insert missing fields from ${fileClass.name}`)"
+                },
+                {
+                    "source": "setTitle(`${this.fileClass.name} - ${attr.name}`)",
+                    "target": "setTitle(`${this.fileClass.name} - ${attr.name}`)"
+                },
+                {
+                    "source": "setTitle(\"Add new field\")",
+                    "target": "setTitle(\"Add new field\")"
+                },
+                {
+                    "source": "setTitle(`Open fields modal`)",
+                    "target": "setTitle(`Open fields modal`)"
+                },
+                {
+                    "source": "setTitle(\"Manage all fields\")",
+                    "target": "setTitle(\"Manage all fields\")"
+                },
+                {
+                    "source": "setTitle(\"Manage field at cursor\")",
+                    "target": "setTitle(\"Manage field at cursor\")"
+                },
+                {
+                    "source": "setTitle(\"Add field at section...\")",
+                    "target": "setTitle(\"Add field at section...\")"
+                },
+                {
+                    "source": "setTitle(\"Add missing fields at section...\")",
+                    "target": "setTitle(\"Add missing fields at section...\")"
+                },
+                {
+                    "source": "setTitle(\"Add field in frontmatter\")",
+                    "target": "setTitle(\"Add field in frontmatter\")"
+                },
+                {
+                    "source": "setTitle(\"Add field at cursor\")",
+                    "target": "setTitle(\"Add field at cursor\")"
+                },
+                {
+                    "source": "setTitle(`Add ${this.plugin.settings.fileClassAlias} to ${this.file.basename}`)",
+                    "target": "setTitle(`Add ${this.plugin.settings.fileClassAlias} to ${this.file.basename}`)"
+                },
+                {
+                    "source": "setTitle(`Add a new ${this.plugin.settings.fileClassAlias}`)",
+                    "target": "setTitle(`Add a new ${this.plugin.settings.fileClassAlias}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"example: {{itemsCount}} items\")",
+                    "target": "setPlaceholder(\"example: {{itemsCount}} items\")"
+                },
+                {
+                    "source": "setText(`${(_b = this.managedField.eF) == null ? void 0 : _b.name}`)",
+                    "target": "setText(`${(_b = this.managedField.eF) == null ? void 0 : _b.name}`)"
+                },
+                {
+                    "source": "setTooltip(\"Go to parent field\")",
+                    "target": "setTooltip(\"Go to parent field\")"
+                },
+                {
+                    "source": "setText(\"Alt+Esc to go back\")",
+                    "target": "setText(\"Alt+Esc to go back\")"
+                },
+                {
+                    "source": "setPlaceholder(\"example: {{itemIndex}}: {{subfieldA}} - {{subfieldC}}\")",
+                    "target": "setPlaceholder(\"example: {{itemIndex}}: {{subfieldA}} - {{subfieldC}}\")"
+                },
+                {
+                    "source": "setText(\"Alt+Enter to Add\")",
+                    "target": "setText(\"Alt+Enter to Add\")"
+                },
+                {
+                    "source": "setTooltip(\"Add a new item\")",
+                    "target": "setTooltip(\"Add a new item\")"
+                },
+                {
+                    "source": "Notice(\"A parent field is missing, this field can't be added\")",
+                    "target": "Notice(\"A parent field is missing, this field can't be added\")"
+                },
+                {
+                    "source": "setTooltip(`Update ${(eF == null ? void 0 : eF.name) || \"\"}`)",
+                    "target": "setTooltip(`Update ${(eF == null ? void 0 : eF.name) || \"\"}`)"
+                },
+                {
+                    "source": "setText(`Fields of ${this.file.basename}`)",
+                    "target": "setText(`Fields of ${this.file.basename}`)"
+                },
+                {
+                    "source": "setText(`${baseTitle} ${display}`)",
+                    "target": "setText(`${baseTitle} ${display}`)"
+                },
+                {
+                    "source": "setText(`${baseTitle} ${eF == null ? void 0 : eF.name}`)",
+                    "target": "setText(`${baseTitle} ${eF == null ? void 0 : eF.name}`)"
+                },
+                {
+                    "source": "setTooltip(`Go to ${display}`)",
+                    "target": "setTooltip(`Go to ${display}`)"
+                },
+                {
+                    "source": "setTooltip(`Go to ${upperObject.name} fields`)",
+                    "target": "setTooltip(`Go to ${upperObject.name} fields`)"
+                },
+                {
+                    "source": "setTooltip(`Go to ${fileName} fields`)",
+                    "target": "setTooltip(`Go to ${fileName} fields`)"
+                },
+                {
+                    "source": "setTooltip(\"Add field at section\")",
+                    "target": "setTooltip(\"Add field at section\")"
+                },
+                {
+                    "source": "setTooltip(`Insert missing fields for ${_fileClass.name}`)",
+                    "target": "setTooltip(`Insert missing fields for ${_fileClass.name}`)"
+                },
+                {
+                    "source": "setTooltip(`Add field definition in ${_fileClass.name}`)",
+                    "target": "setTooltip(`Add field definition in ${_fileClass.name}`)"
+                },
+                {
+                    "source": "setTooltip(\"In Frontmatter\")",
+                    "target": "setTooltip(\"In Frontmatter\")"
+                },
+                {
+                    "source": "setTooltip(\"At line...\")",
+                    "target": "setTooltip(\"At line...\")"
+                },
+                {
+                    "source": "Notice(\"plugin is not a valid fileClass\")",
+                    "target": "Notice(\"plugin is not a valid fileClass\")"
+                },
+                {
+                    "source": "setTitle(\"Field Options\")",
+                    "target": "setTitle(\"Field Options\")"
+                },
+                {
+                    "source": "Notice(`Couldn't read ${canvas.path}`)",
+                    "target": "Notice(`Couldn't read ${canvas.path}`)"
+                },
+                {
+                    "source": "log(\"dataview index ready\")",
+                    "target": "log(\"dataview index ready\")"
+                },
+                {
+                    "source": "error(\"One payload's field is missing a name\")",
+                    "target": "error(\"One payload's field is missing a name\")"
+                },
+                {
+                    "source": "log(\"Metadata menu settings migrated to version 3\")",
+                    "target": "log(\"Metadata menu settings migrated to version 3\")"
+                },
+                {
+                    "source": "log(\"Metadata menu settings migrated to version 4\")",
+                    "target": "log(\"Metadata menu settings migrated to version 4\")"
+                },
+                {
+                    "source": "log(\"Metadata menu settings migrated to version 5\")",
+                    "target": "log(\"Metadata menu settings migrated to version 5\")"
+                },
+                {
+                    "source": "error(\"store not found\")",
+                    "target": "error(\"store not found\")"
+                },
+                {
+                    "source": "error(\"unable to open db\")",
+                    "target": "error(\"unable to open db\")"
+                },
+                {
+                    "source": "log(\"create or open db\")",
+                    "target": "log(\"create or open db\")"
+                },
+                {
+                    "source": "setText(`${fileClassName} isn't a proper fileclass`)",
+                    "target": "setText(`${fileClassName} isn't a proper fileclass`)"
+                },
+                {
+                    "source": "log(\"+------ Metadata Menu loaded ------x-+\")",
+                    "target": "log(\"+------ Metadata Menu loaded ------x-+\")"
+                },
+                {
+                    "source": "log(\"x------ Metadata Menu unloaded ------x\")",
+                    "target": "log(\"x------ Metadata Menu unloaded ------x\")"
+                },
+                {
+                    "source": "text: \"New value: \"",
+                    "target": "text: \"New value: \""
+                },
+                {
+                    "source": "text: `${this.managedField.value}`",
+                    "target": "text: `${this.managedField.value}`"
+                },
+                {
+                    "source": "text: `Target file(s) (${this.managedField.target.length}):`",
+                    "target": "text: `Target file(s) (${this.managedField.target.length}):`"
+                },
+                {
+                    "source": "text: \"Template\"",
+                    "target": "text: \"Template\""
+                },
+                {
+                    "source": "text: \"Result preview\"",
+                    "target": "text: \"Result preview\""
+                },
+                {
+                    "source": "text: \"Step (optional)\"",
+                    "target": "text: \"Step (optional)\""
+                },
+                {
+                    "source": "text: \"Min value (optional)\"",
+                    "target": "text: \"Min value (optional)\""
+                },
+                {
+                    "source": "text: \"Max value (optional)\"",
+                    "target": "text: \"Max value (optional)\""
+                },
+                {
+                    "source": "name: \"applyStyles\"",
+                    "target": "name: \"applyStyles\""
+                },
+                {
+                    "source": "name: \"arrow\"",
+                    "target": "name: \"arrow\""
+                },
+                {
+                    "source": "name: \"computeStyles\"",
+                    "target": "name: \"computeStyles\""
+                },
+                {
+                    "source": "name: \"eventListeners\"",
+                    "target": "name: \"eventListeners\""
+                },
+                {
+                    "source": "name: \"flip\"",
+                    "target": "name: \"flip\""
+                },
+                {
+                    "source": "text: \"reference\"",
+                    "target": "text: \"reference\""
+                },
+                {
+                    "source": "name: \"hide\"",
+                    "target": "name: \"hide\""
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "name: \"popperOffsets\"",
+                    "target": "name: \"popperOffsets\""
+                },
+                {
+                    "source": "name: \"preventOverflow\"",
+                    "target": "name: \"preventOverflow\""
+                },
+                {
+                    "source": "name: \"sameWidth\"",
+                    "target": "name: \"sameWidth\""
+                },
+                {
+                    "source": "text: \"Values source type\"",
+                    "target": "text: \"Values source type\""
+                },
+                {
+                    "source": "text: `Path of the note`",
+                    "target": "text: `Path of the note`"
+                },
+                {
+                    "source": "text: \"Dataview function\"",
+                    "target": "text: \"Dataview function\""
+                },
+                {
+                    "source": "text: \"Dataview query returning a list of string (<dv> object is available)\"",
+                    "target": "text: \"Dataview query returning a list of string (<dv> object is available)\""
+                },
+                {
+                    "source": "textContent = \"Add a value\"",
+                    "target": "textContent = \"Add a value\""
+                },
+                {
+                    "source": "text: \" | \"",
+                    "target": "text: \" | \""
+                },
+                {
+                    "source": "text: \"Dataview Query (optional)\"",
+                    "target": "text: \"Dataview Query (optional)\""
+                },
+                {
+                    "source": "text: \"Alias\"",
+                    "target": "text: \"Alias\""
+                },
+                {
+                    "source": "text: \"Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)\"",
+                    "target": "text: \"Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)\""
+                },
+                {
+                    "source": "text: `function(page) { return <function using \"page\">; }`",
+                    "target": "text: `function(page) { return <function using \"page\">; }`"
+                },
+                {
+                    "source": "text: \"Sorting order\"",
+                    "target": "text: \"Sorting order\""
+                },
+                {
+                    "source": "text: `(a: TFile, b: TFile): number`",
+                    "target": "text: `(a: TFile, b: TFile): number`"
+                },
+                {
+                    "source": "text: \"Cycle begins by a null value\"",
+                    "target": "text: \"Cycle begins by a null value\""
+                },
+                {
+                    "source": "text: \"Date format\"",
+                    "target": "text: \"Date format\""
+                },
+                {
+                    "source": "text: \"Insert as link by default\"",
+                    "target": "text: \"Insert as link by default\""
+                },
+                {
+                    "source": "text: \"Link path (optional)\"",
+                    "target": "text: \"Link path (optional)\""
+                },
+                {
+                    "source": "text: \"Define a shift interval\"",
+                    "target": "text: \"Define a shift interval\""
+                },
+                {
+                    "source": "text: \"Field containing shift intervals\"",
+                    "target": "text: \"Field containing shift intervals\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "text: \"Add a folder containing media files\"",
+                    "target": "text: \"Add a folder containing media files\""
+                },
+                {
+                    "source": "text: \"Inline thumbnail embedded\"",
+                    "target": "text: \"Inline thumbnail embedded\""
+                },
+                {
+                    "source": "text: \"File suggest modal display\"",
+                    "target": "text: \"File suggest modal display\""
+                },
+                {
+                    "source": "text: \"Inline embedded thumbnail height (px): \"",
+                    "target": "text: \"Inline embedded thumbnail height (px): \""
+                },
+                {
+                    "source": "text: `Path of the canvas`",
+                    "target": "text: `Path of the canvas`"
+                },
+                {
+                    "source": "text: \"Dataview query returning a list of files (<dv> object is available)\"",
+                    "target": "text: \"Dataview query returning a list of files (<dv> object is available)\""
+                },
+                {
+                    "source": "text: \"No edge selected is equivalent to all edges selected\"",
+                    "target": "text: \"No edge selected is equivalent to all edges selected\""
+                },
+                {
+                    "source": "text: \"Auto update this field \"",
+                    "target": "text: \"Auto update this field \""
+                },
+                {
+                    "source": "text: \"This could lead to latencies depending on the queries\"",
+                    "target": "text: \"This could lead to latencies depending on the queries\""
+                },
+                {
+                    "source": "text: \"javascript formula\"",
+                    "target": "text: \"javascript formula\""
+                },
+                {
+                    "source": "text: \"current and dv variables are available\"",
+                    "target": "text: \"current and dv variables are available\""
+                },
+                {
+                    "source": "text: \"Pages to look for in your vault (DataviewJS Query)\"",
+                    "target": "text: \"Pages to look for in your vault (DataviewJS Query)\""
+                },
+                {
+                    "source": "text: \"DataviewJS query of the form `dv.pages(...)`\"",
+                    "target": "text: \"DataviewJS query of the form `dv.pages(...)`\""
+                },
+                {
+                    "source": "text: \"Name of the related field\"",
+                    "target": "text: \"Name of the related field\""
+                },
+                {
+                    "source": "text: \"field in the target pages that contains a link to the page where this lookup field is\"",
+                    "target": "text: \"field in the target pages that contains a link to the page where this lookup field is\""
+                },
+                {
+                    "source": "text: \"Type of output\"",
+                    "target": "text: \"Type of output\""
+                },
+                {
+                    "source": "text: \"Warning: this may override some lines under your list. There shouldn't be an extra manual item in the list that is automatically rendered by this field: it would be overriden after each field indexing\"",
+                    "target": "text: \"Warning: this may override some lines under your list. There shouldn't be an extra manual item in the list that is automatically rendered by this field: it would be overriden after each field indexing\""
+                },
+                {
+                    "source": "text: \"Summarized field name\"",
+                    "target": "text: \"Summarized field name\""
+                },
+                {
+                    "source": "text: \"Name of the field containing summarized value used for the summarizing function\"",
+                    "target": "text: \"Name of the field containing summarized value used for the summarizing function\""
+                },
+                {
+                    "source": "textContent = \"Position: \"",
+                    "target": "textContent = \"Position: \""
+                },
+                {
+                    "source": "textContent = `Line: ${line.number} | Col: ${col} | Position: ${position}`",
+                    "target": "textContent = `Line: ${line.number} | Col: ${col} | Position: ${position}`"
+                },
+                {
+                    "source": "name: \"json\"",
+                    "target": "name: \"json\""
+                },
+                {
+                    "source": "name: \"yaml\"",
+                    "target": "name: \"yaml\""
+                },
+                {
+                    "source": "name = `${prefix}${i}`",
+                    "target": "name = `${prefix}${i}`"
+                },
+                {
+                    "source": "name: \"limit\"",
+                    "target": "name: \"limit\""
+                },
+                {
+                    "source": "name: \"mapWithTag\"",
+                    "target": "name: \"mapWithTag\""
+                },
+                {
+                    "source": "name: \"icon\"",
+                    "target": "name: \"icon\""
+                },
+                {
+                    "source": "name: \"tagNames\"",
+                    "target": "name: \"tagNames\""
+                },
+                {
+                    "source": "name: \"filesPaths\"",
+                    "target": "name: \"filesPaths\""
+                },
+                {
+                    "source": "name: \"bookmarksGroups\"",
+                    "target": "name: \"bookmarksGroups\""
+                },
+                {
+                    "source": "name: \"excludes\"",
+                    "target": "name: \"excludes\""
+                },
+                {
+                    "source": "name: \"extends\"",
+                    "target": "name: \"extends\""
+                },
+                {
+                    "source": "name: \"savedViews\"",
+                    "target": "name: \"savedViews\""
+                },
+                {
+                    "source": "name: \"favoriteView\"",
+                    "target": "name: \"favoriteView\""
+                },
+                {
+                    "source": "name: \"fieldsOrder\"",
+                    "target": "name: \"fieldsOrder\""
+                },
+                {
+                    "source": "text: `${fileClassAlias} name`",
+                    "target": "text: `${fileClassAlias} name`"
+                },
+                {
+                    "source": "text: `This ${fileClassAlias} file already exists`",
+                    "target": "text: `This ${fileClassAlias} file already exists`"
+                },
+                {
+                    "source": "text: `${value.lineNumber + 1}`",
+                    "target": "text: `${value.lineNumber + 1}`"
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "text: `${this.field.name}`",
+                    "target": "text: `${this.field.name}`"
+                },
+                {
+                    "source": "text: \"Field Name: \"",
+                    "target": "text: \"Field Name: \""
+                },
+                {
+                    "source": "text: \"Frontmatter list display type\"",
+                    "target": "text: \"Frontmatter list display type\""
+                },
+                {
+                    "source": "text: \"set a command for this field?\"",
+                    "target": "text: \"set a command for this field?\""
+                },
+                {
+                    "source": "text: \"Icon name for mobile toolbar\"",
+                    "target": "text: \"Icon name for mobile toolbar\""
+                },
+                {
+                    "source": "text: \"::\"",
+                    "target": "text: \"::\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: `FileClass Query Name:`",
+                    "target": "text: `FileClass Query Name:`"
+                },
+                {
+                    "source": "text: `Fileclass:`",
+                    "target": "text: `Fileclass:`"
+                },
+                {
+                    "source": "text: \"dataviewJS query:\"",
+                    "target": "text: \"dataviewJS query:\""
+                },
+                {
+                    "source": "textContent = \"Please reload metadata menu to apply this change\"",
+                    "target": "textContent = \"Please reload metadata menu to apply this change\""
+                },
+                {
+                    "source": "name: \"Reading mode links\"",
+                    "target": "name: \"Reading mode links\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form after a link in reading mode\"",
+                    "target": "description: \"Display an extra button to access metadata menu form after a link in reading mode\""
+                },
+                {
+                    "source": "name: \"Live preview mode\"",
+                    "target": "name: \"Live preview mode\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form after a link in live preview\"",
+                    "target": "description: \"Display an extra button to access metadata menu form after a link in live preview\""
+                },
+                {
+                    "source": "name: \"Tab header\"",
+                    "target": "name: \"Tab header\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form in the tab header\"",
+                    "target": "description: \"Display an extra button to access metadata menu form in the tab header\""
+                },
+                {
+                    "source": "name: \"Backlinks\"",
+                    "target": "name: \"Backlinks\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form in the backlinks panel\"",
+                    "target": "description: \"Display an extra button to access metadata menu form in the backlinks panel\""
+                },
+                {
+                    "source": "name: \"Search\"",
+                    "target": "name: \"Search\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form in the search panel\"",
+                    "target": "description: \"Display an extra button to access metadata menu form in the search panel\""
+                },
+                {
+                    "source": "name: \"File explorer\"",
+                    "target": "name: \"File explorer\""
+                },
+                {
+                    "source": "description: \"Display an extra button to access metadata menu form in the file explorer\"",
+                    "target": "description: \"Display an extra button to access metadata menu form in the file explorer\""
+                },
+                {
+                    "source": "name: \"Properties\"",
+                    "target": "name: \"Properties\""
+                },
+                {
+                    "source": "description: \"Display fields buttons to access metadata forms in the property section\"",
+                    "target": "description: \"Display fields buttons to access metadata forms in the property section\""
+                },
+                {
+                    "source": "name: \"push-ups\"",
+                    "target": "name: \"push-ups\""
+                },
+                {
+                    "source": "name: \"calories\"",
+                    "target": "name: \"calories\""
+                },
+                {
+                    "source": "text: `${fCA.getOptionsString(this.plugin)}`",
+                    "target": "text: `${fCA.getOptionsString(this.plugin)}`"
+                },
+                {
+                    "source": "textContent = `(${sorter.priority})`",
+                    "target": "textContent = `(${sorter.priority})`"
+                },
+                {
+                    "source": "text: `(value: string, current: Object): boolean => {`",
+                    "target": "text: `(value: string, current: Object): boolean => {`"
+                },
+                {
+                    "source": "text: `/*`",
+                    "target": "text: `/*`"
+                },
+                {
+                    "source": "text: `value is the value of the file's ${this.filterComponent.name} field`",
+                    "target": "text: `value is the value of the file's ${this.filterComponent.name} field`"
+                },
+                {
+                    "source": "text: `current is the current page (dv.page) if this view is embedded in a codeblock`",
+                    "target": "text: `current is the current page (dv.page) if this view is embedded in a codeblock`"
+                },
+                {
+                    "source": "text: `returns a boolean, `",
+                    "target": "text: `returns a boolean, `"
+                },
+                {
+                    "source": "text: `double quote have to be escaped like this \\\\\", `",
+                    "target": "text: `double quote have to be escaped like this \\\\\", `"
+                },
+                {
+                    "source": "text: `example:`",
+                    "target": "text: `example:`"
+                },
+                {
+                    "source": "text: `return value < current.priority;`",
+                    "target": "text: `return value < current.priority;`"
+                },
+                {
+                    "source": "text: `*/`",
+                    "target": "text: `*/`"
+                },
+                {
+                    "source": "text: \"};\"",
+                    "target": "text: \"};\""
+                },
+                {
+                    "source": "textContent = `(${savedSorter.priority})`",
+                    "target": "textContent = `(${savedSorter.priority})`"
+                },
+                {
+                    "source": "text: `Saved view name`",
+                    "target": "text: `Saved view name`"
+                },
+                {
+                    "source": "text: `This ${this.savedView.name} view name already exists`",
+                    "target": "text: `This ${this.savedView.name} view name already exists`"
+                },
+                {
+                    "source": "text: `${i * this.limit + 1} - ${Math.min((i + 1) * this.limit, this.count)}`",
+                    "target": "text: `${i * this.limit + 1} - ${Math.min((i + 1) * this.limit, this.count)}`"
+                },
+                {
+                    "source": "text: `< ... >`",
+                    "target": "text: `< ... >`"
+                },
+                {
+                    "source": "text: \"Results per page: \"",
+                    "target": "text: \"Results per page: \""
+                },
+                {
+                    "source": "text: \"Object display template\"",
+                    "target": "text: \"Object display template\""
+                },
+                {
+                    "source": "text: \"The number of items is referenced by the keyword 'itemsCount'\"",
+                    "target": "text: \"The number of items is referenced by the keyword 'itemsCount'\""
+                },
+                {
+                    "source": "text: `${item.field.name} :`",
+                    "target": "text: `${item.field.name} :`"
+                },
+                {
+                    "source": "text: `${item.name} :`",
+                    "target": "text: `${item.name} :`"
+                },
+                {
+                    "source": "text: \"<missing>\"",
+                    "target": "text: \"<missing>\""
+                },
+                {
+                    "source": "text: \"Item display template\"",
+                    "target": "text: \"Item display template\""
+                },
+                {
+                    "source": "text: \"all child fields are available with their name enclosed in curly braces. Their index is referenced by the keyword 'itemIndex'\"",
+                    "target": "text: \"all child fields are available with their name enclosed in curly braces. Their index is referenced by the keyword 'itemIndex'\""
+                },
+                {
+                    "source": "text: \">\"",
+                    "target": "text: \">\""
+                },
+                {
+                    "source": "text: \"Insert missing fields\"",
+                    "target": "text: \"Insert missing fields\""
+                },
+                {
+                    "source": "text: \"Add a new item\"",
+                    "target": "text: \"Add a new item\""
+                },
+                {
+                    "source": "name: \"All fileClass attributes options\"",
+                    "target": "name: \"All fileClass attributes options\""
+                },
+                {
+                    "source": "name: \"Insert a new fileClass attribute\"",
+                    "target": "name: \"Insert a new fileClass attribute\""
+                },
+                {
+                    "source": "name: \"Choose a field to insert at cursor\"",
+                    "target": "name: \"Choose a field to insert at cursor\""
+                },
+                {
+                    "source": "name: \"Fields options\"",
+                    "target": "name: \"Fields options\""
+                },
+                {
+                    "source": "name: \"Manage field at cursor\"",
+                    "target": "name: \"Manage field at cursor\""
+                },
+                {
+                    "source": "name: \"Bulk insert missing fields\"",
+                    "target": "name: \"Bulk insert missing fields\""
+                },
+                {
+                    "source": "name: \"Open this note's fields modal\"",
+                    "target": "name: \"Open this note's fields modal\""
+                },
+                {
+                    "source": "name: \"Open fileClass view\"",
+                    "target": "name: \"Open fileClass view\""
+                },
+                {
+                    "source": "name: \"Add fileClass to file\"",
+                    "target": "name: \"Add fileClass to file\""
+                },
+                {
+                    "source": "name: \"Update all lookups and formulas\"",
+                    "target": "name: \"Update all lookups and formulas\""
+                },
+                {
+                    "source": "name: \"Update active file lookups fields\"",
+                    "target": "name: \"Update active file lookups fields\""
+                },
+                {
+                    "source": "name: \"Update active file formulas fields\"",
+                    "target": "name: \"Update active file formulas fields\""
+                },
+                {
+                    "source": "name: \"fileClassView\"",
+                    "target": "name: \"fileClassView\""
+                },
+                {
+                    "source": "name = `metadata_menu_${this.plugin.app.appId || this.plugin.app.vault.adapter.basePath || this.plugin.app.vault.getName()}`",
+                    "target": "name = `metadata_menu_${this.plugin.app.appId || this.plugin.app.vault.adapter.basePath || this.plugin.app.vault.getName()}`"
+                },
+                {
+                    "source": "name: \"id\"",
+                    "target": "name: \"id\""
+                },
+                {
+                    "source": "name: \"file\"",
+                    "target": "name: \"file\""
+                }
+            ]
+        }
+    }
+}
