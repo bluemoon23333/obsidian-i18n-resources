@@ -50,5 +50,18 @@
         "created_at": "2026-07-02T13:20:25.055Z",
         "updated_at": "2026-07-02T13:20:25.055Z",
         "type": "plugin"
+    },
+    {
+        "id": "31-I5vFzKhLWo1tGk8wN5Bq7-cTNHceL",
+        "plugin": "simple-banner",
+        "language": "zh-cn",
+        "version": "0.5.9",
+        "supported_versions": "0.5.9",
+        "title": "Simple Banner",
+        "description": "Simple Banner Localization & Tweaks",
+        "hash": "3dd0cebe3dd0cebe3dd0cebe3dd0cebe",
+        "created_at": "2026-07-02T13:20:36.503Z",
+        "updated_at": "2026-07-02T13:20:36.503Z",
+        "type": "plugin"
     }
 ]
